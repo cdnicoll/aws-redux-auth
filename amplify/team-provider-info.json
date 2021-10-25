@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ocupopsandbox-dev-151227-authRole",
+      "UnauthRoleArn": "arn:aws:iam::654266993121:role/amplify-ocupopsandbox-dev-151227-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::654266993121:role/amplify-ocupopsandbox-dev-151227-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-ocupopsandbox-dev-151227-deployment",
+      "UnauthRoleName": "amplify-ocupopsandbox-dev-151227-unauthRole",
+      "StackName": "amplify-ocupopsandbox-dev-151227",
+      "StackId": "arn:aws:cloudformation:us-west-2:654266993121:stack/amplify-ocupopsandbox-dev-151227/a70d2740-3129-11ec-b748-0a1422c71043",
+      "AmplifyAppId": "d1i7bse5ivgdfj"
+    }
+  }
+}
