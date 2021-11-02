@@ -1,4 +1,6 @@
-// https://github.com/prescottprue/react-redux-firebase/blob/master/src/constants.js
+/**
+ * @see https://github.com/prescottprue/react-redux-firebase/blob/master/src/constants.js
+ */
 
 /**
  * @constant
@@ -10,22 +12,18 @@
  */
 export const actionsPrefix = '@@reactReduxAWS'
 
-/**
- * @constant
- * @type {object}
- * @description Object containing all action types
- * @property {string} START - `@@reactReduxFirebase/START`
- * @property {string} LOGIN - `@@reactReduxFirebase/LOGIN`
- * @property {string} LOGOUT - `@@reactReduxFirebase/LOGOUT`
- * @property {string} LOGIN_ERROR - `@@reactReduxFirebase/LOGIN_ERROR`
-
- * @example
- * import { actionTypes } from 'react-redux-firebase'
- * actionTypes.SET === '@@reactReduxFirebase/SET' // true
- */
 export const actionTypes = {
   START: `${actionsPrefix}/START`,
   LOGIN: `${actionsPrefix}/LOGIN`,
   LOGOUT: `${actionsPrefix}/LOGOUT`,
   LOGIN_ERROR: `${actionsPrefix}/LOGIN_ERROR`,
+  AUTH_RELOAD_SUCCESS: `${actionsPrefix}/AUTH_RELOAD_SUCCESS`,
+  AUTHENTICATION_INIT_STARTED: `${actionsPrefix}/AUTHENTICATION_INIT_STARTED`,
+  AUTHENTICATION_INIT_FINISHED: `${actionsPrefix}/AUTHENTICATION_INIT_FINISHED`,
+}
+
+export const hubTypes = {
+  CONFIGURED: 'configured',
+  SIGNIN: 'signIn',
+  SIGNOUT: 'signOut'
 }

@@ -1,19 +1,9 @@
 import reducer from './reducer'
-import * as helpers from './helpers'
+import ReactReduxAwsProvider from './ReactReduxAwsProvider'
+export * from './helpers'
+export * from './utils/auth'
 
 export {
+  ReactReduxAwsProvider,
   reducer as awsReducer,
-  // ...helpers
 }
-
-// export default {
-//   awsReducer: reducer,
-//   ...helpers
-// }
-
-//  const awsRedux = {
-//   awsReducer: reducer,
-//   ...helpers
-// }
-
-// export default awsRedux

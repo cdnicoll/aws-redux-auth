@@ -15,7 +15,15 @@ export function authReducer(
   action
 ) {
   switch (action.type) {
+    case actionTypes.LOGIN_ERROR:
+      return { isLoaded: true, isEmpty: true }
+    case actionTypes.LOGIN:
+    case actionTypes.AUTH_RELOAD_SUCCESS:
+      return { isLoaded: true, isEmpty: false, auth: action.payload }
+    case actionTypes.LOGOUT:
+      return { isLoaded: true, isEmpty: true }
     default:
+      console.log("@DEBUG::11012021-113053", action.type)
       return state
   }
 }

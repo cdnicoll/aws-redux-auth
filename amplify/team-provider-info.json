@@ -10,6 +10,11 @@
       "StackName": "amplify-ocupopsandbox-dev-151227",
       "StackId": "arn:aws:cloudformation:us-west-2:654266993121:stack/amplify-ocupopsandbox-dev-151227/a70d2740-3129-11ec-b748-0a1422c71043",
       "AmplifyAppId": "d1i7bse5ivgdfj"
+    },
+    "categories": {
+      "auth": {
+        "ocupopsandboxc1ca195f": {}
+      }
     }
   }
 }
